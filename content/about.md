@@ -2,6 +2,7 @@
 title: "Mon Profil et Mes Compétences"
 date: 2025-12-12T13:05:00+01:00
 draft: false
+aliases: ["/profile/"]
 menu:
   main:
     name: "À Propos"
