@@ -1,0 +1,29 @@
+baseURL = "https://eva-carones.github.io/"
+title = "Eva Carones – Data & Business Analyst"
+languageCode = "fr-fr"
+theme = "ananke"
+
+[pagination]
+pagerSize = 5
+
+[menu]
+  [[menu.main]]
+    name = "Accueil"
+    url = "/"
+    weight = 5
+
+  [[menu.main]]
+    name = "À Propos"
+    url = "/profile/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Projets"
+    url = "/projects/"
+    weight = 20
+
+[params]
+linkedin = "https://www.linkedin.com/in/eva-carones-80524a266"
+github = "https://github.com/votre_nom_utilisateur"
+cv = "lien-vers-votre-cv.pdf"
+<img src="/images/profile.jpg" alt="Eva Carones" style="width: 150px; border-radius: 50%;">
