@@ -9,7 +9,7 @@ tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "Power BI", "Modélisation",
 
 Ce projet s'inscrit dans la continuité de mon parcours académique et professionnel et visait à **explorer, nettoyer et analyser un vaste ensemble de données énergétiques** afin de comprendre l'évolution des filières de production en France et **d'évaluer si la trajectoire actuelle permet d'atteindre les objectifs fixés pour 2030**. L'objectif principal était de rendre accessibles et compréhensibles des informations complexes à un public non expert.
 
-``
+<!--more-->
 ---
 
 ## 🛠️ Méthodologie et Compétences Techniques
