@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Eva Carones – Data &amp; Business Analyst</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Eva Carones – Data &amp; Business Analyst</description>
+    <title>Accueil on Eva Carones – Data &amp; Business Analyst</title>
+    <link>https://eva-carones.github.io/</link>
+    <description>Recent content in Accueil on Eva Carones – Data &amp; Business Analyst</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eva-carones.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mon Profil et Mes Compétences</title>
-      <link>http://localhost:1313/profile/</link>
+      <link>https://eva-carones.github.io/profile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/profile/</guid>
+      <guid>https://eva-carones.github.io/profile/</guid>
       <description>&lt;h2 id=&#34;eva-carones--data-analyst--business-analyst&#34;&gt;Eva CARONES – Data Analyst &amp;amp; Business Analyst&lt;/h2&gt;&#xA;&lt;p&gt;Spécialisée en analyse et valorisation de la donnée, j’apporte des solutions claires et opérationnelles aux problématiques métiers. Ce portfolio présente mes projets et ma démarche analytique. Forte de mon expérience en alternance chez Léon Grosse et de ma Certification Data Analyst, j&amp;rsquo;allie expertise technique et compréhension approfondie des enjeux métier (études de marché, performance digitale et satisfaction client).&lt;/p&gt;&#xA;&lt;h3 id=&#34;-compétences-techniques-hard-skills&#34;&gt;🧠 Compétences Techniques (Hard Skills)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Environnement data :&lt;/strong&gt; Python (Pandas, NumPy, Seaborn, Matplotlib), SQL.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Business Intelligence :&lt;/strong&gt; Power BI (modèles, DAX, création de dashboards pour les KPIs clés).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Modélisation &amp;amp; analyse :&lt;/strong&gt; analyses statistiques, machine learning supervisé, text mining / NLP.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Qualité &amp;amp; préparation des données :&lt;/strong&gt; nettoyage, structuration, intégration, automatisation des traitements.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-compétences-métier--business&#34;&gt;💼 Compétences Métier &amp;amp; Business&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Analyse quantitatives &amp;amp; qualitatives, études de marché, consumer insights.&lt;/li&gt;&#xA;&lt;li&gt;Lecture et optimisation de la performance marketing &amp;amp; digitale.&lt;/li&gt;&#xA;&lt;li&gt;Traduction des besoins métier en indicateurs, rapports et recommandations opérationnelles.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-compétences-relationnelles--opérationnelles&#34;&gt;🤝 Compétences Relationnelles &amp;amp; Opérationnelles&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Communication claire et pédagogique avec les équipes métiers.&lt;/li&gt;&#xA;&lt;li&gt;Orientation utilisateur et support dans l’usage des outils analytiques.&lt;/li&gt;&#xA;&lt;li&gt;Autonomie, rigueur et esprit d’analyse.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;Je suis basée en Île-de-France et ouverte à de nouvelles opportunités en data &amp;amp; analytics.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>

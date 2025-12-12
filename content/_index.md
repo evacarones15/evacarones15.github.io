@@ -2,6 +2,8 @@
 title: "Accueil"
 date: 2025-12-10T22:00:00+01:00
 draft: false
+layout: "single" 
+type: "page"
 ---
 
 ## De la Donnée Brute à la Décision Stratégique
