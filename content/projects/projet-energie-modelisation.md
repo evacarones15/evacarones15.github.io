@@ -37,5 +37,5 @@ Ce projet s'inscrit dans la continuité de mon parcours académique et professio
 
 ## 🔗 Liens
 
-* **Analyse/Nettoyage (Python) :** [Lien vers votre Jupyter Notebook/code source sur GitHub]
+* **Analyse/Nettoyage (Python) :** [https://github.com/evacarones15/projet-analyse-energie]
 * **Dashboard Power BI** : [Lien vers la version publique du Dashboard]
