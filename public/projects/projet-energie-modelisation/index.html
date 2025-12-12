@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Projet 1 : Analyse de la Transition Énergétique (Python &amp; Power BI) | Eva Carones – Data &amp; Business Analyst</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="🎯 Problématique Business et Objectif
+Ce projet s&rsquo;inscrit dans la continuité de mon parcours académique et professionnel et visait à explorer, nettoyer et analyser un vaste ensemble de données énergétiques afin de comprendre l&rsquo;évolution des filières de production en France et d&rsquo;évaluer si la trajectoire actuelle permet d&rsquo;atteindre les objectifs fixés pour 2030. L&rsquo;objectif principal était de rendre accessibles et compréhensibles des informations complexes à un public non expert.
+
+🛠️ Méthodologie et Compétences Techniques
+1. Pré-processing et Nettoyage des Données (Python)
+
+Source : Jeu de données Éco2mix régional (RTE / Opendatasoft).
+Nettoyage (Python/Pandas) : Travail approfondi pour garantir la fiabilité et la cohérence des résultats. Les données ont été filtrées pour conserver les observations &ldquo;définitives&rdquo;.
+Qualité des Données : Traitement des valeurs manquantes, notamment pour la production éolienne (remplacement par la médiane mensuelle régionale) et gestion des TCO/TCH manquants avant 2020.
+Feature Engineering : Conversion des variables temporelles en formats date, heure et datetime pour l&rsquo;analyse temporelle. Suppression des colonnes non pertinentes pour l&rsquo;analyse car totalement vides, ne contenant ainsi aucune donnée exploitable.
+
+2. Analyse et Visualisation (Power BI)
+
+Dashboard : Conception d&rsquo;un tableau de bord sous Power BI organisé en 8 volets complémentaires.
+Thématiques Clés : Analyse du mix énergétique, des dynamiques régionales, de l&rsquo;autonomie (TCO) et des trajectoires carbone et objectifs.
+UX/Interactivité : Intégration de filtres globaux, de cartes thématiques, et d&rsquo;un bouton &ldquo;info&rdquo; redirigeant sur une note de lecture et interprétation pour accompagner le lecteur.
+Optimisation : Réduction des relations inutiles dans le modèle de données et création de mesures DAX dédiées.
+
+
+📈 Résultats et Conclusion Stratégique
+
+Objectif Bas Carbone Dépassé : L&rsquo;analyse montre que la France dépasse son objectif bas carbone, principalement grâce au rôle stabilisateur du nucléaire.
+Potentiel Renouvelable : Le déploiement des énergies renouvelables progresse, mais leur contribution reste limitée par l&rsquo;intermittence liée à la dépendance aux conditions météorologiques(notamment pour le solaire et l&rsquo;éolien). L&rsquo;étude a mis en évidence un potentiel encore largement mobilisable dans l&rsquo;éolien, l&rsquo;hydraulique et le solaire.
+Compétences Démontrées : Maîtrise des outils techniques (Python, Power BI) et capacité à transformer des données complexes en une narration simple, cohérente et pédagogique.
+
+
+🔗 Liens
+
+Analyse/Nettoyage (Python) : [https://github.com/evacarones15/projet-analyse-energie]
+Dashboard Power BI : [Lien vers la version publique du Dashboard]
+">
+    <meta name="generator" content="Hugo 0.152.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/projects/projet-energie-modelisation/">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/projects/projet-energie-modelisation/">
+  <meta property="og:site_name" content="Eva Carones – Data & Business Analyst">
+  <meta property="og:title" content="Projet 1 : Analyse de la Transition Énergétique (Python & Power BI)">
+  <meta property="og:description" content="🎯 Problématique Business et Objectif Ce projet s’inscrit dans la continuité de mon parcours académique et professionnel et visait à explorer, nettoyer et analyser un vaste ensemble de données énergétiques afin de comprendre l’évolution des filières de production en France et d’évaluer si la trajectoire actuelle permet d’atteindre les objectifs fixés pour 2030. L’objectif principal était de rendre accessibles et compréhensibles des informations complexes à un public non expert.
+🛠️ Méthodologie et Compétences Techniques 1. Pré-processing et Nettoyage des Données (Python) Source : Jeu de données Éco2mix régional (RTE / Opendatasoft). Nettoyage (Python/Pandas) : Travail approfondi pour garantir la fiabilité et la cohérence des résultats. Les données ont été filtrées pour conserver les observations “définitives”. Qualité des Données : Traitement des valeurs manquantes, notamment pour la production éolienne (remplacement par la médiane mensuelle régionale) et gestion des TCO/TCH manquants avant 2020. Feature Engineering : Conversion des variables temporelles en formats date, heure et datetime pour l’analyse temporelle. Suppression des colonnes non pertinentes pour l’analyse car totalement vides, ne contenant ainsi aucune donnée exploitable. 2. Analyse et Visualisation (Power BI) Dashboard : Conception d’un tableau de bord sous Power BI organisé en 8 volets complémentaires. Thématiques Clés : Analyse du mix énergétique, des dynamiques régionales, de l’autonomie (TCO) et des trajectoires carbone et objectifs. UX/Interactivité : Intégration de filtres globaux, de cartes thématiques, et d’un bouton “info” redirigeant sur une note de lecture et interprétation pour accompagner le lecteur. Optimisation : Réduction des relations inutiles dans le modèle de données et création de mesures DAX dédiées. 📈 Résultats et Conclusion Stratégique Objectif Bas Carbone Dépassé : L’analyse montre que la France dépasse son objectif bas carbone, principalement grâce au rôle stabilisateur du nucléaire. Potentiel Renouvelable : Le déploiement des énergies renouvelables progresse, mais leur contribution reste limitée par l’intermittence liée à la dépendance aux conditions météorologiques(notamment pour le solaire et l’éolien). L’étude a mis en évidence un potentiel encore largement mobilisable dans l’éolien, l’hydraulique et le solaire. Compétences Démontrées : Maîtrise des outils techniques (Python, Power BI) et capacité à transformer des données complexes en une narration simple, cohérente et pédagogique. 🔗 Liens Analyse/Nettoyage (Python) : [https://github.com/evacarones15/projet-analyse-energie] Dashboard Power BI : [Lien vers la version publique du Dashboard]">
+  <meta property="og:locale" content="fr_fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2025-12-12T12:15:00+01:00">
+    <meta property="article:modified_time" content="2025-12-12T12:15:00+01:00">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Pandas">
+    <meta property="article:tag" content="Matplotlib">
+    <meta property="article:tag" content="Seaborn">
+    <meta property="article:tag" content="Power BI">
+    <meta property="article:tag" content="Modélisation">
+
+  <meta itemprop="name" content="Projet 1 : Analyse de la Transition Énergétique (Python & Power BI)">
+  <meta itemprop="description" content="🎯 Problématique Business et Objectif Ce projet s’inscrit dans la continuité de mon parcours académique et professionnel et visait à explorer, nettoyer et analyser un vaste ensemble de données énergétiques afin de comprendre l’évolution des filières de production en France et d’évaluer si la trajectoire actuelle permet d’atteindre les objectifs fixés pour 2030. L’objectif principal était de rendre accessibles et compréhensibles des informations complexes à un public non expert.
+🛠️ Méthodologie et Compétences Techniques 1. Pré-processing et Nettoyage des Données (Python) Source : Jeu de données Éco2mix régional (RTE / Opendatasoft). Nettoyage (Python/Pandas) : Travail approfondi pour garantir la fiabilité et la cohérence des résultats. Les données ont été filtrées pour conserver les observations “définitives”. Qualité des Données : Traitement des valeurs manquantes, notamment pour la production éolienne (remplacement par la médiane mensuelle régionale) et gestion des TCO/TCH manquants avant 2020. Feature Engineering : Conversion des variables temporelles en formats date, heure et datetime pour l’analyse temporelle. Suppression des colonnes non pertinentes pour l’analyse car totalement vides, ne contenant ainsi aucune donnée exploitable. 2. Analyse et Visualisation (Power BI) Dashboard : Conception d’un tableau de bord sous Power BI organisé en 8 volets complémentaires. Thématiques Clés : Analyse du mix énergétique, des dynamiques régionales, de l’autonomie (TCO) et des trajectoires carbone et objectifs. UX/Interactivité : Intégration de filtres globaux, de cartes thématiques, et d’un bouton “info” redirigeant sur une note de lecture et interprétation pour accompagner le lecteur. Optimisation : Réduction des relations inutiles dans le modèle de données et création de mesures DAX dédiées. 📈 Résultats et Conclusion Stratégique Objectif Bas Carbone Dépassé : L’analyse montre que la France dépasse son objectif bas carbone, principalement grâce au rôle stabilisateur du nucléaire. Potentiel Renouvelable : Le déploiement des énergies renouvelables progresse, mais leur contribution reste limitée par l’intermittence liée à la dépendance aux conditions météorologiques(notamment pour le solaire et l’éolien). L’étude a mis en évidence un potentiel encore largement mobilisable dans l’éolien, l’hydraulique et le solaire. Compétences Démontrées : Maîtrise des outils techniques (Python, Power BI) et capacité à transformer des données complexes en une narration simple, cohérente et pédagogique. 🔗 Liens Analyse/Nettoyage (Python) : [https://github.com/evacarones15/projet-analyse-energie] Dashboard Power BI : [Lien vers la version publique du Dashboard]">
+  <meta itemprop="datePublished" content="2025-12-12T12:15:00+01:00">
+  <meta itemprop="dateModified" content="2025-12-12T12:15:00+01:00">
+  <meta itemprop="wordCount" content="367">
+  <meta itemprop="keywords" content="Python,Pandas,Matplotlib,Seaborn,Power BI,Modélisation,Visualisation">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Projet 1 : Analyse de la Transition Énergétique (Python & Power BI)">
+  <meta name="twitter:description" content="🎯 Problématique Business et Objectif Ce projet s’inscrit dans la continuité de mon parcours académique et professionnel et visait à explorer, nettoyer et analyser un vaste ensemble de données énergétiques afin de comprendre l’évolution des filières de production en France et d’évaluer si la trajectoire actuelle permet d’atteindre les objectifs fixés pour 2030. L’objectif principal était de rendre accessibles et compréhensibles des informations complexes à un public non expert.
+🛠️ Méthodologie et Compétences Techniques 1. Pré-processing et Nettoyage des Données (Python) Source : Jeu de données Éco2mix régional (RTE / Opendatasoft). Nettoyage (Python/Pandas) : Travail approfondi pour garantir la fiabilité et la cohérence des résultats. Les données ont été filtrées pour conserver les observations “définitives”. Qualité des Données : Traitement des valeurs manquantes, notamment pour la production éolienne (remplacement par la médiane mensuelle régionale) et gestion des TCO/TCH manquants avant 2020. Feature Engineering : Conversion des variables temporelles en formats date, heure et datetime pour l’analyse temporelle. Suppression des colonnes non pertinentes pour l’analyse car totalement vides, ne contenant ainsi aucune donnée exploitable. 2. Analyse et Visualisation (Power BI) Dashboard : Conception d’un tableau de bord sous Power BI organisé en 8 volets complémentaires. Thématiques Clés : Analyse du mix énergétique, des dynamiques régionales, de l’autonomie (TCO) et des trajectoires carbone et objectifs. UX/Interactivité : Intégration de filtres globaux, de cartes thématiques, et d’un bouton “info” redirigeant sur une note de lecture et interprétation pour accompagner le lecteur. Optimisation : Réduction des relations inutiles dans le modèle de données et création de mesures DAX dédiées. 📈 Résultats et Conclusion Stratégique Objectif Bas Carbone Dépassé : L’analyse montre que la France dépasse son objectif bas carbone, principalement grâce au rôle stabilisateur du nucléaire. Potentiel Renouvelable : Le déploiement des énergies renouvelables progresse, mais leur contribution reste limitée par l’intermittence liée à la dépendance aux conditions météorologiques(notamment pour le solaire et l’éolien). L’étude a mis en évidence un potentiel encore largement mobilisable dans l’éolien, l’hydraulique et le solaire. Compétences Démontrées : Maîtrise des outils techniques (Python, Power BI) et capacité à transformer des données complexes en une narration simple, cohérente et pédagogique. 🔗 Liens Analyse/Nettoyage (Python) : [https://github.com/evacarones15/projet-analyse-energie] Dashboard Power BI : [Lien vers la version publique du Dashboard]">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Eva Carones – Data &amp; Business Analyst
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/" title="Accueil page">
+              Accueil
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="À Propos page">
+              À Propos
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/projects/" title="Projets page">
+              Projets
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Projects
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Projet 1 : Analyse de la Transition Énergétique (Python &amp; Power BI)</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-12-12T12:15:00+01:00">December 12, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><h2 id="-problématique-business-et-objectif">🎯 Problématique Business et Objectif</h2>
+<p>Ce projet s&rsquo;inscrit dans la continuité de mon parcours académique et professionnel et visait à <strong>explorer, nettoyer et analyser un vaste ensemble de données énergétiques</strong> afin de comprendre l&rsquo;évolution des filières de production en France et <strong>d&rsquo;évaluer si la trajectoire actuelle permet d&rsquo;atteindre les objectifs fixés pour 2030</strong>. L&rsquo;objectif principal était de rendre accessibles et compréhensibles des informations complexes à un public non expert.</p>
+<hr>
+<h2 id="-méthodologie-et-compétences-techniques">🛠️ Méthodologie et Compétences Techniques</h2>
+<h3 id="1-pré-processing-et-nettoyage-des-données-python">1. Pré-processing et Nettoyage des Données (Python)</h3>
+<ul>
+<li><strong>Source :</strong> Jeu de données Éco2mix régional (RTE / Opendatasoft).</li>
+<li><strong>Nettoyage (Python/Pandas) :</strong> Travail approfondi pour garantir la fiabilité et la cohérence des résultats. Les données ont été filtrées pour conserver les observations &ldquo;définitives&rdquo;.</li>
+<li><strong>Qualité des Données :</strong> Traitement des valeurs manquantes, notamment pour la production éolienne (remplacement par la médiane mensuelle régionale) et gestion des TCO/TCH manquants avant 2020.</li>
+<li><strong>Feature Engineering :</strong> Conversion des variables temporelles en formats date, heure et datetime pour l&rsquo;analyse temporelle. Suppression des colonnes non pertinentes pour l&rsquo;analyse car totalement vides, ne contenant ainsi aucune donnée exploitable.</li>
+</ul>
+<h3 id="2-analyse-et-visualisation-power-bi">2. Analyse et Visualisation (Power BI)</h3>
+<ul>
+<li><strong>Dashboard :</strong> Conception d&rsquo;un tableau de bord sous <strong>Power BI</strong> organisé en 8 volets complémentaires.</li>
+<li><strong>Thématiques Clés :</strong> Analyse du mix énergétique, des dynamiques régionales, de l&rsquo;autonomie (TCO) et des trajectoires carbone et objectifs.</li>
+<li><strong>UX/Interactivité :</strong> Intégration de filtres globaux, de cartes thématiques, et d&rsquo;un bouton &ldquo;info&rdquo; redirigeant sur une note de lecture et interprétation pour accompagner le lecteur.</li>
+<li><strong>Optimisation :</strong> Réduction des relations inutiles dans le modèle de données et création de mesures DAX dédiées.</li>
+</ul>
+<hr>
+<h2 id="-résultats-et-conclusion-stratégique">📈 Résultats et Conclusion Stratégique</h2>
+<ul>
+<li><strong>Objectif Bas Carbone Dépassé :</strong> L&rsquo;analyse montre que la France dépasse son objectif bas carbone, principalement grâce au rôle stabilisateur du nucléaire.</li>
+<li><strong>Potentiel Renouvelable :</strong> Le déploiement des énergies renouvelables progresse, mais leur contribution reste limitée par l&rsquo;intermittence liée à la dépendance aux conditions météorologiques(notamment pour le solaire et l&rsquo;éolien). L&rsquo;étude a mis en évidence un potentiel encore largement mobilisable dans l&rsquo;éolien, l&rsquo;hydraulique et le solaire.</li>
+<li><strong>Compétences Démontrées :</strong> Maîtrise des outils techniques (Python, Power BI) et capacité à transformer des données complexes en une narration simple, cohérente et pédagogique.</li>
+</ul>
+<hr>
+<h2 id="-liens">🔗 Liens</h2>
+<ul>
+<li><strong>Analyse/Nettoyage (Python) :</strong> [https://github.com/evacarones15/projet-analyse-energie]</li>
+<li><strong>Dashboard Power BI</strong> : [Lien vers la version publique du Dashboard]</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/python/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Python</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/pandas/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Pandas</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/matplotlib/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Matplotlib</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/seaborn/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Seaborn</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/power-bi/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Power BI</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/mod%C3%A9lisation/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Modélisation</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/visualisation/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Visualisation</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Eva Carones – Data & Business Analyst 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
