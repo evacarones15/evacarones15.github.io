@@ -16,7 +16,7 @@ pagerSize = 5
 
   [[menu.main]]
     name = "À Propos"
-    url = "/profile/"
+    url = "/about/"
     weight = 10
 
   [[menu.main]]
