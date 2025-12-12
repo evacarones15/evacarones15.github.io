@@ -2,8 +2,6 @@ baseURL = "https://evacarones15.github.io/"
 title = "Eva Carones – Data & Business Analyst"
 languageCode = "fr-fr"
 theme = "ananke"
-relativeURLs = true
-uglyURLs = true
 
 [pagination]
 pagerSize = 5
